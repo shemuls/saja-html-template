@@ -1,3 +1,5 @@
-jQuery(".mobileMenu-openIcon").click(function () {
-  jQuery(".header-main-menu").toggleClass("show");
+jQuery(document).ready(function ($) {
+  $(".mobileMenu-openIcon").click(function () {
+    $(".header-main-menu").toggleClass("show");
+  });
 });
