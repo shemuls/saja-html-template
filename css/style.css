@@ -140,6 +140,20 @@ header {
   display: flex;
   gap: 55px;
 }
+@media (max-width: 667px) {
+  .hero-infoWrap {
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .hero-contentWrap {
+    margin-top: 30px;
+  }
+  .hero-area {
+    height: auto;
+    padding: 100px 0 40px 0;
+  }
+}
 
 /* About me section style */
 .about-row {
@@ -270,6 +284,10 @@ header {
   }
   .services-grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .brand-imgBox {
+    grid-template-columns: repeat(1, 1fr);
+    overflow: hidden;
   }
 }
 
